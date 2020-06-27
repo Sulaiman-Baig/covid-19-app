@@ -1,13 +1,15 @@
 import React from 'react';
 
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-   Test Auto Deployment Successfully Implemented
-    </div>
-  );
+class App extends React.Component {
+    render() {
+        return (
+            <div>
+                <h1>
+                    Basic React App Setup
+                </h1>
+            </div>
+        )
+    }
 }
 
 export default App;
